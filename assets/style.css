@@ -11,8 +11,8 @@ body {
 }
 
 .inner__block-item {
-    width: 254px;
-    height: 400px;
+    width: 224px;
+    height: 320px;
     background-color: #471AFF;
     margin-top: 170px;
     border-radius: 10px;
@@ -26,8 +26,8 @@ body {
 
 #addButton {
     display: block;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 
 #musicAdder {
@@ -85,4 +85,8 @@ body {
     position: absolute;
     background-color: #90A9FF;
     z-index: 2;
+}
+
+.addMusicFile {
+    margin-top: 30px;
 }

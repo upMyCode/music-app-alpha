@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="music__block">
-            <div class="inner__block-item" id="musicList"></div>  
+            <div class="inner__block-item" id="musicList" draggable="true"></div>  
         </div>
         <div class="inner__block-item-2" id="addMusicButton">
             <a href="#" id="musicAdder">
@@ -30,12 +30,18 @@
                 </div>
                 <div class="musicStore">
                     <audio>
-                        <source src="/assets/musicSource/The Chainsmokers & Coldplay - Something Just Like This_[mp3mob.net].mp3">
+                        <source class="audio" src="/assets/musicSource/The Chainsmokers & Coldplay - Something Just Like This_[mp3mob.net].mp3">
+                        <source class="audio" src="/assets/musicSource/The Chainsmokers & Coldplay - Something Just Like This_[mp3mob.net].mp3">
                     </audio>
                 </div>
             </div>
         </div>
+        <div class="addMusicFile">
+            <input type="file" id="file"/>
+        </div>
     </div>
-    <script src="/assets/script.js"> </script>
+    <script type="module" src="/assets/script.js"> </script>
+    <script type="module" src="/addMusic.js"></script>
+    <script type="module" src="playMusic.js"></script>
 </body>
 </html>
