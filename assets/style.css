@@ -56,6 +56,12 @@ body {
     width: 26px;
     height: 100%;
     margin: 12px 0 0 16px;
+    outline: none;
+    border: 0;
+}
+
+.playSize:focus {
+    outline: none;
     border: 0;
 }
 
