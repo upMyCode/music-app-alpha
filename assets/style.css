@@ -78,7 +78,7 @@ body {
 }
 
 .prograss__bar-item {
-    width: 100%;
+    width: 350px;
     height: 3px;
     background-color: #6A67FF;
     z-index: 1;
