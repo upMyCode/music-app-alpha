@@ -6,7 +6,7 @@
     musicList.append(text);
     const musicNum = document.querySelectorAll('.numberOfMusic');
     for(let i = 0; i < 1; i++) {
-        musicNum[i].textContent = (music[i].src).toString();
+        musicNum[i].textContent = 'First Treck';
     }
 }
 
