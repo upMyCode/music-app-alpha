@@ -1,3 +1,3 @@
 # This is music app
 
-![picture](/assets/screen.png)
+![picture](file:///Users/upmycode/Документы/MusicApp/assets/Screen.png)
